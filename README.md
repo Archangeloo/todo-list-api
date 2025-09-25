@@ -1,10 +1,10 @@
-# 📝 API de Tarefas (CRUD)
+# API de Tarefas (CRUD)
 
 Esta é uma API REST simples para gerenciamento de tarefas (CRUD), desenvolvida com **Node.js** e **Express**. Permite criar, listar, atualizar e deletar tarefas, armazenadas em memória.
 
 ---
 
-## 🛠️ Pré-requisitos
+## Pré-requisitos
 
 Antes de começar, você precisa ter instalado:
 
@@ -14,7 +14,7 @@ Antes de começar, você precisa ter instalado:
 
 ---
 
-## ▶️ Como Rodar o Projeto
+## Como Rodar o Projeto
 
 1. Clone ou baixe o repositório:
 
@@ -37,8 +37,6 @@ npm start
 
 O servidor ficará disponível em: **[http://localhost:3000](http://localhost:3000)**
 
-💡 Dica: se quiser que o servidor reinicie automaticamente a cada alteração de código, use:
-
 ```bash
 npm run dev
 ```
@@ -47,7 +45,7 @@ npm run dev
 
 ---
 
-## 🔗 Rotas da API
+## Rotas da API
 
 | Método | Rota          | Descrição                     |
 | ------ | ------------- | ----------------------------- |
@@ -58,7 +56,7 @@ npm run dev
 
 ---
 
-## 📑 Exemplos de JSON
+## Exemplos de JSON
 
 ### Criar uma tarefa (POST /tarefas)
 
@@ -102,7 +100,7 @@ npm run dev
 
 ---
 
-## 🧪 Testando no Postman
+## Testando no Postman
 
 1. Abra o Postman e crie uma nova Collection chamada **API de Tarefas**.
 2. Crie as requisições:
@@ -114,7 +112,7 @@ npm run dev
 3. Clique em **Send** para enviar as requisições.
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 ToDo_API/
@@ -128,9 +126,3 @@ ToDo_API/
 ├─ prints/            # Prints de testes no Postman
 └─ node_modules/
 ```
-
----
-
-## ℹ️ Observação
-
-Esta API armazena as tarefas **em memória** (array). Ao reiniciar o servidor, os dados voltam ao estado inicial.
