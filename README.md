@@ -112,8 +112,6 @@ npm run dev
    * PUT `http://localhost:3000/tarefas/1` (Body > raw > JSON)
    * DELETE `http://localhost:3000/tarefas/1`
 3. Clique em **Send** para enviar as requisições.
-4. Salve prints dos testes na pasta `prints` do projeto.
-
 ---
 
 ## 📂 Estrutura do Projeto
